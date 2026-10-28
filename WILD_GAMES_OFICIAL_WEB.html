@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WILD GAMES Oficial Web</title>
+<style>
+:root{--bg:#07110d;--panel:#101e17;--panel2:#14271d;--green:#63f59a;--green2:#24c96b;--text:#f1fff5;--muted:#b5cbbd;--line:#28543a;--gold:#ffd166}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#153522 0,#07110d 55%);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}.topbar{position:sticky;top:0;z-index:5;background:#07110deF;border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}nav{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:13px 0;flex-wrap:wrap}.brand{font-weight:900;letter-spacing:.5px}.brand span{color:var(--green)}.navlinks{display:flex;gap:13px;flex-wrap:wrap;font-size:.92rem}.navlinks a{text-decoration:none;color:var(--muted)}.navlinks a:hover{color:var(--green)}
+.hero{padding:66px 0 48px;text-align:center}.eyebrow{display:inline-block;border:1px solid var(--line);background:#10251a;padding:6px 12px;border-radius:99px;color:var(--green);font-size:.85rem;font-weight:bold}.hero h1{font-size:clamp(2.3rem,7vw,4.6rem);line-height:1.02;margin:18px 0 12px}.hero h1 span{color:var(--green)}.hero p{max-width:720px;margin:0 auto 23px;color:var(--muted);font-size:1.08rem}.btn{display:inline-block;padding:11px 17px;border-radius:10px;background:var(--green);color:#062111;font-weight:800;text-decoration:none;border:0;cursor:pointer}.btn.secondary{background:transparent;border:1px solid var(--line);color:var(--text)}section{padding:35px 0}.section-head{margin-bottom:18px}.section-head h2{font-size:clamp(1.6rem,4vw,2.25rem);margin:0 0 5px}.section-head p{margin:0;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}.card{background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:16px;padding:17px;min-height:150px;box-shadow:0 10px 30px #0002}.card .emoji{font-size:1.65rem}.card h3{margin:8px 0 5px;font-size:1.08rem}.card p{margin:0;color:var(--muted);font-size:.94rem}.tag{display:inline-block;margin-top:12px;border-radius:7px;background:#0b1b12;color:var(--green);border:1px solid var(--line);padding:3px 8px;font-size:.78rem}.notice{border:1px solid #77632a;background:#2a2411;border-radius:14px;padding:16px;color:#fff1bd}.contactbox{background:linear-gradient(145deg,#132b1d,#0b1710);border:1px solid var(--line);border-radius:18px;padding:22px}.email-placeholder{display:block;background:#07110d;border:1px dashed var(--green);border-radius:10px;padding:13px;margin:12px 0;color:var(--green);font-weight:bold;overflow-wrap:anywhere}.formgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.field label{display:block;font-size:.9rem;color:var(--muted);margin-bottom:5px}.field input,.field select,.field textarea{width:100%;padding:12px;border-radius:9px;border:1px solid var(--line);background:#07110d;color:var(--text);font:inherit}.field textarea{min-height:100px;resize:vertical}.field.full{grid-column:1/-1}.formnote{color:var(--muted);font-size:.85rem}.footer{border-top:1px solid var(--line);padding:25px 0 35px;color:var(--muted);font-size:.9rem}.small{font-size:.9rem;color:var(--muted)}.rank{border-color:#78652b}.rank .tag{color:var(--gold);border-color:#78652b}
+@media(max-width:600px){.hero{padding-top:45px}.navlinks{gap:9px;font-size:.82rem}.contactbox{padding:16px}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap"><nav>
+  <div class="brand">⛏ <span>W I L D G A M E S</span> O F I C I A L</div>
+  <div class="navlinks"><a href="#juegos">Juegos</a><a href="#novedades">Novedades</a><a href="#rangos">Rangos</a><a href="#solicitudes">Solicitudes</a><a href="#contacto">Contacto</a></div>
+</nav></div></header>
+<main>
+<section class="hero"><div class="wrap">
+  <div class="eyebrow">🎮 MINECRAFT BEDROCK · COMUNIDAD</div>
+  <h1>W I L D G A M E S<br><span>O F I C I A L W E B</span></h1>
+  <p>¡Bienvenido/a a WILD GAMES! Descubre nuestros minijuegos, consulta las novedades y envía sugerencias, reportes o solicitudes de rango.</p>
+  <a class="btn" href="#juegos">Ver todos los juegos ↓</a> <a class="btn secondary" href="#contacto">Contactar</a>
+</div></section>
+
+<section id="juegos"><div class="wrap">
+  <div class="section-head"><h2>🕹️ Todos los minijuegos</h2><p>La lista completa de juegos previstos para WILD GAMES.</p></div>
+  <h3>🏆 Clásicos</h3><div class="grid">
+    <article class="card"><div class="emoji">💣</div><h3>TNT Run</h3><p>Corre sin parar: los bloques desaparecen bajo tus pies.</p><span class="tag">Clásico</span></article>
+    <article class="card"><div class="emoji">❄️</div><h3>Spleef</h3><p>Rompe el suelo para hacer caer a tus rivales y ser el último en pie.</p><span class="tag">Clásico</span></article>
+    <article class="card"><div class="emoji">🧱</div><h3>Build Battle</h3><p>Construye según el tema y demuestra tu creatividad.</p><span class="tag">Clásico</span></article>
+    <article class="card"><div class="emoji">⛓️</div><h3>Prison</h3><p>Mina recursos, consigue dinero y mejora tu equipo para progresar.</p><span class="tag">Clásico</span></article>
+    <article class="card"><div class="emoji">🏃</div><h3>Parkour</h3><p>Salta, supera obstáculos y llega hasta la meta.</p><span class="tag">Clásico</span></article>
+  </div>
+  <h3 style="margin-top:28px">⚔️ Minijuegos de 1 VS 1</h3><div class="grid">
+    <article class="card"><div class="emoji">☁️</div><h3>Skywars</h3><p>Consigue equipo en tu isla y lucha por ser el último superviviente.</p><span class="tag">1 VS 1 / combate</span></article>
+    <article class="card"><div class="emoji">🛏️</div><h3>Bedwars</h3><p>Protege tu cama, reúne recursos y elimina a tus rivales.</p><span class="tag">1 VS 1 / estrategia</span></article>
+    <article class="card"><div class="emoji">🥚</div><h3>Eggwars</h3><p>Defiende tu huevo y trata de destruir el de tu oponente.</p><span class="tag">1 VS 1 / estrategia</span></article>
+    <article class="card"><div class="emoji">🟦</div><h3>Blockwars</h3><p>Enfréntate a tu rival en una batalla de bloques y estrategia.</p><span class="tag">1 VS 1 / combate</span></article>
+    <article class="card"><div class="emoji">🛡️</div><h3>Battle Arena</h3><p>Combate en la arena y demuestra quién domina el duelo.</p><span class="tag">1 VS 1 / combate</span></article>
+  </div>
+  <h3 style="margin-top:28px">🏗️ Tycoons / Magnates</h3><div class="grid">
+    <article class="card"><div class="emoji">🍔</div><h3>Tycoon de restaurante — 1 jugador</h3><p>Construye y mejora tu propio restaurante en solitario.</p><span class="tag">Tycoon · solo</span></article>
+    <article class="card"><div class="emoji">🍕</div><h3>Tycoon de restaurante — 2 jugadores</h3><p>Gestionad el restaurante entre dos y haced crecer el negocio.</p><span class="tag">Tycoon · cooperativo</span></article>
+    <article class="card"><div class="emoji">🍰</div><h3>Tycoon de restaurante — 3 jugadores</h3><p>Un magnate para un equipo de tres, al estilo Restaurant Tycoon.</p><span class="tag">Tycoon · equipo</span></article>
+  </div>
+  <p class="small" style="margin-top:16px">Nota: los juegos se irán habilitando cuando estén construidos. Esta web presenta los minijuegos previstos, no confirma que todos estén disponibles ya.</p>
+</div></section>
+
+<section id="novedades"><div class="wrap"><div class="section-head"><h2>📢 Novedades</h2><p>Noticias, cambios y próximos eventos de WILD GAMES.</p></div>
+<div class="grid">
+  <article class="card"><div class="emoji">🆕</div><h3>Novedades del servidor</h3><p>Consulta aquí los nuevos juegos, mapas, eventos y cambios importantes.</p></article>
+  <article class="card"><div class="emoji">🗓️</div><h3>Próximamente</h3><p><strong>EDITA ESTE TEXTO:</strong> escribe aquí los próximos minijuegos o eventos.</p></article>
+  <article class="card"><div class="emoji">📌</div><h3>Información importante</h3><p>Respeta las normas y las indicaciones de la persona propietaria del mundo.</p></article>
+</div></div></section>
+
+<section id="rangos"><div class="wrap"><div class="section-head"><h2>🎖️ Rangos</h2><p>Las solicitudes se revisan; enviar una solicitud no garantiza que se apruebe.</p></div>
+<div class="grid">
+  <article class="card"><div class="emoji">🚪</div><h3>No miembro</h3><p>Estado de quienes todavía no tienen un rango de miembro.</p><span class="tag">Inicial</span></article>
+  <article class="card"><div class="emoji">🌱</div><h3>Starter</h3><p>Rango de inicio para nuevos jugadores.</p><span class="tag">Inicial</span></article>
+  <article class="card"><div class="emoji">⭐</div><h3>Miembro</h3><p>Solicita este rango mediante el correo de contacto.</p><span class="tag">Rango</span></article>
+  <article class="card"><div class="emoji">✨</div><h3>Miembro Plus</h3><p>Un rango superior al de Miembro.</p><span class="tag">Rango especial</span></article>
+  <article class="card"><div class="emoji">💎</div><h3>Miembro Premium</h3><p><strong>No se puede comprar.</strong> Solo se concede con autorización de la persona propietaria.</p><span class="tag">No comprable</span></article>
+  <article class="card"><div class="emoji">🔥</div><h3>Miembro VIP</h3><p>Un rango especial de la comunidad.</p><span class="tag">Rango especial</span></article>
+  <article class="card rank"><div class="emoji">🛡️</div><h3>Admin</h3><p>Rango de administración. Solo se concede con autorización expresa de la persona propietaria.</p><span class="tag">Requiere permiso</span></article>
+  <article class="card rank"><div class="emoji">👑</div><h3>Owner</h3><p><strong>No se puede comprar.</strong> Es el rango de la persona propietaria de WILD GAMES.</p><span class="tag">No comprable</span></article>
+</div>
+<div class="notice" style="margin-top:16px">⚠️ <strong>Norma de rangos:</strong> Miembro Premium y Owner no se pueden comprar. Si alguien intenta comprarlos, independientemente del precio o del dinero gastado, se le retirará el rango inmediatamente y volverá al rango anterior. Comprar cualquier rango tampoco garantiza su conservación: la persona propietaria puede retirarlo si se obtuvo sin autorización o se incumplen las normas.</div>
+</div></section>
+
+<section id="solicitudes"><div class="wrap"><div class="section-head"><h2>✉️ Solicitudes, sugerencias y reportes</h2><p>Rellena los datos y pulsa el botón para preparar un correo. Antes de usarlo, configura tu dirección de correo en el código donde se indica.</p></div>
+<div class="contactbox">
+  <form id="requestForm">
+    <div class="formgrid">
+      <div class="field"><label for="player">Tu gamertag</label><input id="player" name="player" placeholder="Escribe tu gamertag" required></div>
+      <div class="field"><label for="kind">Tipo de mensaje</label><select id="kind" name="kind"><option>Solicitud para recibir el gamertag y unirme</option><option>Solicitud de cambio de Starter a Miembro</option><option>Solicitud o consulta sobre rango Admin</option><option>Sugerencia para la web o el mundo</option><option>Reporte de bug / error</option><option>Otro mensaje</option></select></div>
+      <div class="field full"><label for="details">Explica tu solicitud</label><textarea id="details" name="details" placeholder="Cuéntame qué necesitas. Para reportar un bug, explica qué ha pasado y dónde." required></textarea></div>
+    </div>
+    <p class="formnote">Se abrirá tu aplicación de correo con el mensaje preparado; tendrás que revisarlo y enviarlo tú.</p>
+    <button class="btn" type="submit">Preparar correo ✉️</button>
+  </form>
+</div></div></section>
+
+<section id="contacto"><div class="wrap"><div class="section-head"><h2>📬 Cómo pedir acceso a WILD GAMES</h2><p>La web no tiene un servidor independiente: el acceso se coordina directamente con la persona propietaria del mundo.</p></div>
+<div class="contactbox">
+  <p><strong>¿Quieres entrar al mundo?</strong> Envíame un correo indicando tu gamertag y que quieres recibir mi gamertag para añadirme como amigo y poder unirte cuando esté disponible.</p>
+  <p><strong>¿Quieres solicitar un rango, enviar una sugerencia o informar de un error?</strong> Usa el formulario de solicitudes de arriba.</p>
+  <p><strong>Aquí tienes mi correo:</strong></p>
+  <span class="email-placeholder">INSERTAR_TU_CORREO_AQUÍ</span>
+  <p class="small">Cambia el texto «INSERTAR_TU_CORREO_AQUÍ» por tu correo real. También debes poner ese mismo correo en la variable CONTACT_EMAIL del código para que el formulario funcione.</p>
+  <a class="btn secondary" href="#solicitudes">Ir a solicitudes ↑</a>
+</div></div></section>
+</main>
+<footer class="footer"><div class="wrap">© WILD GAMES OFICIAL WEB · Minecraft Bedrock · <span style="color:var(--green)">¡Nos vemos en el juego!</span></div></footer>
+<script>
+/* CONFIGURACIÓN: cambia el texto entre comillas por tu dirección de correo real. */
+const CONTACT_EMAIL = "PON_AQUI_TU_CORREO";
+document.getElementById("requestForm").addEventListener("submit", function(event){
+  event.preventDefault();
+  if (!CONTACT_EMAIL || CONTACT_EMAIL === "PON_AQUI_TU_CORREO" || !CONTACT_EMAIL.includes("@")) {
+    alert("Primero tienes que poner tu correo real en CONTACT_EMAIL y cambiar INSERTAR_TU_CORREO_AQUÍ en la sección Contacto.");
+    return;
+  }
+  const player = document.getElementById("player").value.trim();
+  const kind = document.getElementById("kind").value;
+  const details = document.getElementById("details").value.trim();
+  const subject = "[WILD GAMES] " + kind;
+  const body = "Gamertag: " + player + "\nTipo de mensaje: " + kind + "\n\nMensaje:\n" + details;
+  window.location.href = "mailto:" + encodeURIComponent(CONTACT_EMAIL) + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+});
+</script>
+</body>
+</html>
